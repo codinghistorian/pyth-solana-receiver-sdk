@@ -16,7 +16,5 @@ name = "pyth_solana_receiver_sdk"
 anchor-lang = "=0.30.1"
 hex = ">=0.4.3"
 pythnet-sdk = { git = "https://github.com/codinghistorian/pythnet-sdk", branch = "main" }
-    "solana-program",
-] }
 
 solana-program = ">=1.16.0, <2.0.0"
