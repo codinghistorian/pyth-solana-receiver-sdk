@@ -15,9 +15,8 @@ name = "pyth_solana_receiver_sdk"
 [dependencies]
 anchor-lang = "=0.30.1"
 hex = ">=0.4.3"
-pythnet-sdk = { path = "../../../pythnet/pythnet_sdk", version = "2.1.0", features = [
+pythnet-sdk = { git = "https://github.com/codinghistorian/pythnet-sdk", branch = "main" }
     "solana-program",
 ] }
 
-pythnet-sdk = { git = "https://github.com/codinghistorian/pythnet-sdk", branch = "main" }
 solana-program = ">=1.16.0, <2.0.0"
